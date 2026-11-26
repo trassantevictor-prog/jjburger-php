@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /includes/
+Disallow: /checkout
+Disallow: /checkout.php
+
+# Permitir indexação das páginas públicas
+Allow: /
+Allow: /cardapio
+Allow: /cardapio.php
+
+# Sitemap (atualize o domínio abaixo)
+Sitemap: https://seudominio.com.br/sitemap.xml
