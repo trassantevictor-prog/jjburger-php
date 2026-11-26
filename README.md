@@ -17,7 +17,7 @@ Praticar na prática conceitos de desenvolvimento web:
 - Centralizar configurações em um único arquivo (`includes/config.php`)
 - Montar **cardápio interativo** com sacola de compras em JavaScript puro
 - Criar um **checkout** que gera o resumo do pedido automaticamente
-- Integrar um **chatbot de IA** (Abacus.AI) como atendente virtual, com fluxo de pedido e transferência para atendente humano
+- Integrar um **chatbot de IA** como atendente virtual, com fluxo de pedido e transferência para atendente humano
 - Configurar servidor Apache com `.htaccess` (HTTPS, URLs amigáveis, página 404, cache)
 
 ## ✨ Funcionalidades
@@ -75,6 +75,5 @@ Edite `includes/config.php` para trocar o link do chatbot, o número de WhatsApp
 
 ## 👤 Autor
 
-**Sergio Rodrigo Da Silva Trassante** — Porto Alegre/RS
-
-Projeto desenvolvido para fins de estudo. Marca e conteúdo da JJ Burger usados com fins demonstrativos.
+**Sergio Trassante** 
+Projeto desenvolvido para fins de estudo. 
