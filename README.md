@@ -7,6 +7,10 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?logo=javascript&logoColor=black)
 ![Apache](https://img.shields.io/badge/Apache-.htaccess-D22128?logo=apache&logoColor=white)
 
+### 🌐 [Ver o site online](https://trassantevictor-prog.github.io/jjburger-php/) · 🤖 [Falar com o atendente IA](https://apps.abacus.ai/chatllm/c2be51da2?hideTopBar=2)
+
+> A versão online (GitHub Pages) é uma exportação estática em HTML — o código PHP completo está na branch `main`.
+
 ---
 
 ## 🎯 Objetivo do projeto
