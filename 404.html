@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página não encontrada • JJ Burger</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <style>
+    body { background-color: #0e0e11; color: #f5f0e8; font-family: sans-serif; }
+    .hazard { background: repeating-linear-gradient(45deg,#ffd200,#ffd200 15px,#0e0e11 15px,#0e0e11 30px); }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- Topo hazard -->
+  <div class="hazard h-3 w-full"></div>
+
+  <!-- Header mínimo -->
+  <header class="w-full bg-[#0e0e11] border-b border-yellow-500/20 px-6 py-4 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-2">
+      <span class="text-yellow-400 text-2xl font-black tracking-widest uppercase">👑 JJ BURGER</span>
+    </a>
+    <span class="text-sm text-gray-400 uppercase tracking-wider">Restinga POA</span>
+  </header>
+
+  <!-- Conteúdo 404 -->
+  <main class="flex-1 flex flex-col items-center justify-center px-6 py-20 text-center gap-8">
+
+    <!-- Número de erro estilo chapa -->
+    <div class="relative">
+      <span class="text-[160px] font-black leading-none text-yellow-400 opacity-10 select-none absolute inset-0 flex items-center justify-center">404</span>
+      <div class="relative z-10 flex flex-col items-center gap-4">
+        <span class="text-6xl">🍔</span>
+        <h1 class="text-5xl font-black uppercase tracking-tight text-yellow-400">404</h1>
+        <p class="text-2xl font-bold uppercase text-white">Essa página não existe</p>
+        <p class="text-gray-400 max-w-md text-lg">
+          Parece que você foi longe demais na Zona Sul e saiu do mapa.<br>
+          Mas o lanche ainda tá quente — volte pro começo!
+        </p>
+      </div>
+    </div>
+
+    <!-- Ações -->
+    <div class="flex flex-col sm:flex-row gap-4 mt-4">
+      <a href="index.html"
+         class="inline-flex items-center gap-2 px-8 py-4 rounded-lg bg-yellow-400 hover:bg-yellow-300 text-black font-black uppercase tracking-wider text-lg shadow-[3px_3px_0_#000] transition-all hover:-translate-y-0.5">
+        <span class="material-symbols-outlined">home</span>
+        Voltar ao Início
+      </a>
+      <a href="cardapio.html"
+         class="inline-flex items-center gap-2 px-8 py-4 rounded-lg bg-transparent border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black font-black uppercase tracking-wider text-lg transition-all hover:-translate-y-0.5">
+        <span class="material-symbols-outlined">restaurant_menu</span>
+        Ver Cardápio
+      </a>
+      <a href="https://apps.abacus.ai/chatllm/?appId=c2be51da2" target="_blank" rel="noopener noreferrer"
+         class="inline-flex items-center gap-2 px-8 py-4 rounded-lg bg-green-600 hover:bg-green-500 text-white font-black uppercase tracking-wider text-lg shadow-[3px_3px_0_#000] transition-all hover:-translate-y-0.5">
+        <span class="material-symbols-outlined">chat</span>
+        Falar com a IA
+      </a>
+    </div>
+
+    <!-- Frase de rua -->
+    <blockquote class="mt-8 border-l-4 border-yellow-400 pl-4 text-left max-w-sm text-gray-400 italic">
+      "Sonho, trabalho, resultado. Respeito é tudo!"<br>
+      <span class="text-yellow-400 font-bold not-italic text-sm uppercase tracking-wider">— JJ Burger, Restinga ZS</span>
+    </blockquote>
+  </main>
+
+  <!-- Rodapé hazard -->
+  <div class="hazard h-3 w-full"></div>
+  <footer class="bg-[#0e0e11] text-center py-4 text-gray-600 text-sm">
+    © 2026 JJ Burger Artesanal • Restinga, Porto Alegre - RS
+  </footer>
+
+</body>
+</html>
